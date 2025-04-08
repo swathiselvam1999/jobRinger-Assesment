@@ -42,7 +42,7 @@ const Navbar = () => {
       </nav>
 
       {isOpen &&
-        <nav className=' p-4 bg-white shadow-lg shadow-gray-300 block md:hidden w-[70%] z-50 h-screen'>
+        <nav className=' fixed top-0 left-0 z-50 p-4 bg-white shadow-lg shadow-gray-300 block md:hidden w-[70%] h-screen'>
           <div className='nav-link'>
             <ul className='flex flex-col gap-3 text-sm cursor-pointer'>
               <li><a href="#">Jobs</a></li>
@@ -63,7 +63,7 @@ const Navbar = () => {
       }
 
       <div className='block md:hidden'>
-      <div className=' fixed bottom-0 z-10 flex justify-evenly items-center gap-5 bg-white w-full'>
+      <div className=' fixed bottom-0 left-0 z-50 flex justify-evenly items-center gap-5 bg-white w-full'>
         <button className='' onClick={toggle}>
           <GiHamburgerMenu className='text-3xl ' />
         </button>
