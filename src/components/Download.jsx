@@ -10,7 +10,7 @@ const Download = () => {
                     <div className=''>
                         <h1 className='text-xl md:text-3xl pb-4'>APPLY TO JOBS ON-THE-GO</h1>
                         <p className='text-2xl font-thin text-blue-400'>Jobringer Mobile App</p>
-                        <div className='flex flex-row md:flex-col  gap-1 py-4'>
+                        <div className='flex md:flex-row flex-col  gap-1 py-4'>
                             <img src={android} alt="" />
                             <img src={ios} alt="" />
                         </div>

@@ -11,7 +11,7 @@ const Search = () => {
         </h2>
         <div className='flex justify-around m-5'>
           <div className='grid md:grid-cols-2 gap-5 md:gap-16'>
-            <div className=' bg-[#27dadb] p-10 rounded-md w-full' >
+            <div className=' bg-[#27dadb] p-5 md:p-10 rounded-md w-full' >
 
               <div className='flex gap-2 mb-3'>
                 <input type="text" placeholder='Search Jobs Now' className='border-gray-100 w-full shadow-inner p-2 rounded-md ' />

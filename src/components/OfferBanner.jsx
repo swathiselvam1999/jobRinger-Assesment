@@ -13,7 +13,7 @@ const OfferBanner = () => {
                 <div>
                     <p className=' font-bold bg-gradient-to-r from-yellow-400 to-white bg-clip-text text-transparent animate-gradient [background-size:200%_200%] hidden md:block'>WEMCOME OFFER - FREE JOB Postings and Much More.</p>
                 </div>
-                <div className='flex  gap-1 md:gap-2'>
+                <div className='flex md:gap-2'>
                     <button>
                         <a href="#" className=' bg-yellow-400 p-1 md:p-2 rounded-md hover:text-white text-sm font-semibold'>Register for FREE</a>
                     </button>

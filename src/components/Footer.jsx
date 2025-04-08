@@ -52,29 +52,29 @@ const Footer = () => {
             <div className='bg-[#d6eeee]'>
                
                 <div className='flex justify-center py-5 bg-white md:bg-[#d6eeee]'>
-                    <div className='grid grid-cols-4 gap-5 md:gap-20'>
+                    <div className='grid grid-cols-4 gap-3 md:gap-20'>
                         <div className='flex flex-col justify-center'>
                             <span className='text-center pb-4 font-bold'>Jobs Posted</span>
-                            <span className='text-2xl md:text-4xl text-center tracking-tight md:tracking-wider font-semibold'>38223</span>
+                            <span className='text-xl md:text-4xl text-center md:tracking-wider font-semibold'>38223</span>
                         </div>
                         <div className='flex flex-col justify-center'>
                             <span className='text-center pb-4 font-bold'>Jobs Filled</span>
-                            <span className='text-2xl md:text-4xl text-center tracking-tight md:tracking-wider font-semibold'>15153</span>
+                            <span className='text-xl md:text-4xl text-center md:tracking-wider font-semibold'>15153</span>
                         </div>
                         <div className='flex flex-col justify-center'>
                             <span className='text-center pb-4 font-bold'>Employers</span>
-                            <span className='text-2xl md:text-4xl text-center tracking-tight md:tracking-wider font-semibold'>24058</span>
+                            <span className='text-xl md:text-4xl text-center md:tracking-wider font-semibold'>24058</span>
                         </div>
                         <div className='flex flex-col justify-center'>
                             <span className='text-center pb-4 font-bold'>Active Users</span>
-                            <span className='text-2xl md:text-4xl text-center tracking-tight md:tracking-wider font-semibold'>1475492</span>
+                            <span className='text-xl md:text-4xl text-center md:tracking-wider font-semibold'>1475492</span>
                         </div>
                     </div>
                 </div>
 
                 <div className=' border-blue-950 border-b-2'></div>
 
-                <div className='flex flex-col md:flex-row justify-center gap-10 py-5 px:5 md:px-20'>
+                <div className='flex flex-col md:flex-row justify-center gap-10 py-5 px-5 md:px-20'>
                     <div className='w-full md:w-3/4'>
                         <p className='text-justify'>
                             <span className='font-bold'>Disclaimer:</span> All Trademarks and Logos are the property of their respective owners, depicted here purely for representation purpose. | Jobringer.com has taken all reasonable steps to ensure that information on this site is genuine. Job Applicants are advised to evaluate independently. Jobringer.com shall not have any responsibility in this regard. All Jobseeker services are strictly designed & meant only for job search assistance and to maximize the chances for the jobseekers to get their dream job. All Job Seeker Credentials and Employment Opportunities are subject to individual merit & evaluation. We do not guarantee any job to any jobseeker.</p>
