@@ -18,12 +18,12 @@ const Search = () => {
                 <button className='bg-yellow-400 p-2 rounded-md hover:text-white'>Search</button>
               </div>
 
-              <div className='flex justify-end gap-2'>
+              <div className='flex justify-end gap-1 md:gap-2'>
                 <button>
-                  <a href="#" className='border bg-white border-gray-300 p-2 rounded-md'>Jobseeker Login</a>
+                  <a href="#" className='border bg-white border-gray-300 p-1 md:p-2 rounded-md'>Jobseeker Login</a>
                 </button>
                 <button>
-                  <a href="#" className=' bg-yellow-400 p-2 rounded-md hover:text-white'>Employer Login</a>
+                  <a href="#" className=' bg-yellow-400 p-1 md:p-2 rounded-md hover:text-white'>Employer Login</a>
                 </button>
               </div>
 
