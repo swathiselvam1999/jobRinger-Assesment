@@ -5,7 +5,7 @@ import ios from '../assets/images/ios.png'
 const Download = () => {
     return (
         <div>
-            <div className='flex justify-center m-5 p-20'>
+            <div className='flex justify-center m-5 py-10 px-5'>
                 <div className='grid md:grid-cols-2 gap-16'>
                     <div className=''>
                         <h1 className='text-xl md:text-3xl pb-4'>APPLY TO JOBS ON-THE-GO</h1>
