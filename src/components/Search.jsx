@@ -33,7 +33,7 @@ const Search = () => {
                 <h2 className='text-xl text-blue-950 font-semibold'>Quick Job search</h2><FaSearch className='text-lg text-blue-950' />
               </div>
               <p className='text-white text-sm items-center'>
-                <span className='inline-block leading-10 tracking-wider'>#Fresher
+                <span className='inline-block leading-3 md:leading-10 tracking-wider'>#Fresher
                   #Work From Home
                   #WFH
                   #IT
