@@ -63,24 +63,24 @@ const Navbar = () => {
       }
 
       <div className='block md:hidden'>
-      <div className=' fixed bottom-0 left-0 z-50 flex justify-evenly items-center gap-5 bg-white w-full'>
-        <button className='' onClick={toggle}>
-          <GiHamburgerMenu className='text-3xl ' />
+      <div className=' fixed bottom-0 left-0 z-50 flex justify-evenly items-center gap-5 bg-white w-full p-2'>
+        <button className='cursor-pointer' onClick={toggle} >
+          <GiHamburgerMenu className='text-3xl  ' />
         </button>
-        <div className='flex flex-col items-center' >
-          <span className='text-2xl'><FiUserPlus /></span>
+        <div className='flex flex-col items-center cursor-pointer' >
+          <span className='text-xl md:text-2xl'><FiUserPlus /></span>
           <span className=''>Login</span>
         </div>
-        <div className='flex flex-col items-center' >
-          <span className='text-2xl'><IoHomeOutline /></span>
+        <div className='flex flex-col items-center cursor-pointer' >
+          <span className='text-xl md:text-2xl'><IoHomeOutline /></span>
           <span>Home</span>
         </div>
-        <div className='flex flex-col items-center' >
-          <span className='text-2xl'><PiSuitcaseSimpleLight /></span>
+        <div className='flex flex-col items-center cursor-pointer' >
+          <span className='text-xl md:text-2xl'><PiSuitcaseSimpleLight /></span>
           <span>Jobs</span>
         </div>
-        <div className='flex flex-col items-center' >
-          <span className='text-2xl'><BiShare /></span>
+        <div className='flex flex-col items-center cursor-pointer' >
+          <span className='text-xl md:text-2xl '><BiShare /></span>
           <span>Back</span>
         </div>
       </div>

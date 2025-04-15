@@ -75,6 +75,7 @@ const FeaturedJobs = () => {
           640: { slidesPerView: 2 },
           1024: { slidesPerView: 4 },
         }}
+        
       >
         {jobPosts.map((jobPost, index) => (
           <SwiperSlide key={index}>

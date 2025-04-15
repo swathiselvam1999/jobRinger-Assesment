@@ -8,3 +8,7 @@
   box-sizing: border-box;
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+  @apply text-red-500
+}
